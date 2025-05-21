@@ -68,6 +68,10 @@ section.secondary {
   background: #f8f8f8;
 }
 
+section a:hover {
+  text-decoration: underline;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../images/onika.png");
@@ -113,6 +117,10 @@ header a {
   text-decoration: none;
   color: palevioletred;
   padding: 16px 32px;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
 
 main {
@@ -200,6 +208,12 @@ footer li {
 footer a {
   color: white;
   opacity: 0.7;
+}
+
+footer a:hover {
+  color: #9b004d;
+  text-decoration: none;
+  opacity: none;
 }
 
 @media (max-width: 960px) {
